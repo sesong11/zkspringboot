@@ -3,4 +3,5 @@
 	<button id="demoButton" label="Submit" onClick='demoLabel.setValue("Hello " + demoInput.getValue() + "!")'/>
 	<separator/>
 	<label id="demoLabel"/>
+	<label value="${labels.zk.project.title}"/>
 </zk>
